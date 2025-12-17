@@ -48,9 +48,13 @@ gulf-perfume-market/
 │   ├── RNCP_Report_Scent_of_Success.pdf # Final Report
 |
 ├── images/
-│   ├── architecture_diagram.png        # Mermaid diagram of data flow
+│   ├── architecture_diagram.png        # Diagram of data flow
 │   ├── api_swagger_screenshot.png      # API endpoints
-│   └── trello_board.png                # Planning
+│   |── trello_board.png                # Planning
+│   ├── oud_cluster.png                 # Visualization
+│   ├── market_search_volume.png        # Visualization
+│   └── gcc_perfume_trend.png           # Visualization
+|
 ├── api_main.py                         # Production FastAPI App
 ├── api_flask.py                        # Alternative Flask App
 ├── bigquery_connector.py               # BigQuery data ingest
