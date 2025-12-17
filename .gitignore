@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- OS Junk Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environments ---
+.env
+venv/
+env/
+
+# --- IDE Settings (VS Code) ---
+.vscode/
+
+# --- SECURITY (CRITICAL) ---
+gcp_keys.json
+secrets.py
+*.pem
+
+# --- Passwords & Secrets (CRITICAL) ---
+# Any file that has real passwords. 
+# If you hardcoded your password in a python script, 
+# REMOVE THE PASSWORD from the script before uploading!

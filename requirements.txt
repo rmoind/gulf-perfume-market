@@ -1,0 +1,14 @@
+pandas
+numpy
+sqlalchemy
+pymysql
+mysql-connector-python
+scikit-learn
+matplotlib
+seaborn
+fastapi
+uvicorn
+flask
+google-cloud-bigquery
+cloudscraper
+nest_asyncio
