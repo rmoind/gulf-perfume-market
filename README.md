@@ -63,25 +63,27 @@ gulf-perfume-market/
 Key Insights & SQL Analysis
 
 ### Top 5 KPIs from SQL Queries
-1. **Brand Performance:**
-   | brand            | perfume_name                          | rating_value | mean_demand | growth_rate |
-   |------------------|---------------------------------------|--------------|-------------|-------------|
-   | Xerjoff          | Alexandria II (2017)                  | 9.2          | 0.55        | 0.25        |
-   | Enrico Coveri    | Blue Contemporary (1998)              | 8.8          | 0.39        | 0.17        |
 
-2. **Category Trends:**
+1. **Category Trends:**
    | Trend_Category     | Product_Count | Avg_Product_Rating | Market_Search_Volume | Market_Growth_Trend|
    |--------------------|---------------|--------------------|----------------------|--------------------|
    | Oud Perfume        | 4,911         | 4.17               | 0.001                | 0.025              |
    | Natural Perfume    | 17,512        | 4.00               | 0.39                 | 0.17               |
    | General Perfume    | 44,447        | 4.15               | 0.55                 | 0.25               |
 
-3. **Oud Perfume Brands:**
+2. **Oud Perfume Brands:**
    | brand          | oud_perfume_count |
    |----------------|-------------------|
    | Al Haramain    | 33                |
    | Paris Corner   | 9                 |
    | Lattafa        | 7                 |
+
+3. **Product Volume vs. Satisfaction Score:**
+   | Trend_Category      | Product_Volume | Avg_Satisfaction_Score|
+   |--------------------|----------------|------------------------|
+   | Oud Perfume        | 4,911          | 4.17                   |
+   | General Perfume    | 44,447         | 4.15                   |
+   | Natural Perfume    | 17,512         | 4.00                   |
 
 4. **Top-Rated Perfumes:**
    | perfume_name                              | brand         | Rating | Votes |
