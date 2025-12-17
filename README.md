@@ -115,22 +115,22 @@ Oud perfumes **outperform** natural and general perfumes in both **rating (4.17 
 - Python 3.9+
 - MySQL 8.0+
 - Google Cloud credentials (`gcp_keys.json`) 
-# Note: `gcp_keys.json` is required for BigQuery access (not included for security).
+**Note: `gcp_keys.json` is required for BigQuery access (not included for security).**
 
 ### Setup
 ``bash
 git clone https://github.com/YOUR_USERNAME/gulf-perfume-market.git
 pip install -r requirements.txt
-# Set environment variables (see .env.example)
+**Set environment variables (see .env.example)**
 
-**Run**
-# 1. Scrape live data
+### Run
+1. **Scrape live data**
 python scraper.py  # Output: data/scraped_live_update.csv
 
-# 2. Ingest BigQuery data
+2. **Ingest BigQuery data**
 python bigquery_connector.py  # Output: data/bigquery_extract.csv
 
-# 3. Start API (FastAPI recommended)
+3. **Start API (FastAPI recommended)**
 python api_main.py  # Swagger UI: http://127.0.0.1:8000/docs
 
 ## ML Findings
