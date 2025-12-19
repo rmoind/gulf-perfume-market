@@ -12,7 +12,7 @@ import numpy as np # Needed for NaN handling
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "YourPassword", # put Your password here
+    "password": "ironHack2025%40", # put Your password here
     "database": "project_analytics"
 }
 DATABASE_URL = f"mysql+pymysql://{DB_CONFIG['user']}:{DB_CONFIG['password']}@{DB_CONFIG['host']}/{DB_CONFIG['database']}"

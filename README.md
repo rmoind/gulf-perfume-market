@@ -1,6 +1,6 @@
 # Scent of Success: Hybrid Data Architecture
 
-[View the Presentation Slides](docs/RNCP_Report_Scent_of_Success.pdf)
+[View the Presentation Slides](https://www.canva.com/design/DAG7x1uqcHE/CeJjLgCoXPx-JTiDuxW7lA/edit)(docs/RNCP_Report_Scent_of_Success.pdf)
 
 ## Project Context
 This project validates delivers a **complete data engineering pipeline** to analyze the shift from "Synthetic" to "Oud/Natural" perfumes in the **Gulf market**, a region where oud perfumes are culturally significant and commercially lucrative.
